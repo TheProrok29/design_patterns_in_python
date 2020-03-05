@@ -1,4 +1,4 @@
-class MultiSingleton:
+class Singleton:
     """Implementation for exact quantity instances"""
     _instances = []
     _instances_max = 3
@@ -11,3 +11,9 @@ class MultiSingleton:
         cls._instances_actual += 1
         cls._instances_actual = cls._instances_actual % 3
         return cls._instances[cls._instances_actual]
+
+
+# Example
+if __name__ == '__main__':
+    for _ in range(20):
+        print(id(Singleton()))
