@@ -1,0 +1,1 @@
+Examples of several design patterns implemented using Python.
