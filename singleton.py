@@ -6,8 +6,3 @@ class Singleton:
             instance = super().__new__(cls, *args, *kwargs)
             cls._instance = instance
         return cls._instance
-
-
-x = Singleton()
-y = Singleton()
-print(x is y)
