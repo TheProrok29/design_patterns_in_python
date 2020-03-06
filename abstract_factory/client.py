@@ -1,6 +1,6 @@
 from random import shuffle
 
-from manufacturer import Chair_X
+from abstract_factory.manufacturer import ChairX
 
 
 class Client:
@@ -20,6 +20,6 @@ class Client:
                    'material': self.materials[0],
                    'size': self.sizes[0],
                    'type': self.types[0], }
-        chosen_manufacture = Chair_X(request)
+        chosen_manufacture = ChairX(request)
         new_dream_chair = chosen_manufacture.produce_chair()
         self.chair = new_dream_chair
