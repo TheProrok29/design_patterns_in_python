@@ -1,4 +1,4 @@
-from abstract_factory.chair_parts import *
+from chair_parts import *
 
 
 class OfficeChairsFactory:

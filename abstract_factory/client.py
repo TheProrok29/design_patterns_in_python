@@ -1,6 +1,6 @@
 from random import shuffle
 
-from abstract_factory.manufacturer import ChairX
+from manufacturer import ChairX
 
 
 class Client:

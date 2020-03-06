@@ -8,11 +8,11 @@ class Chair:
         self.seat = seat
 
     def __str__(self):
-        back_text = f'A chair with a size back {self.back.size},'
-        arms_text = f'armrest size {self.arms[0].size} and color {self.arms[0].color},'
+        back_text = f'A chair with a size back {self.back.size}, '
+        arms_text = f'armrest size {self.arms[0].size} and color {self.arms[0].color}, '
         wheels_text = ''
         if self.wheels:
-            wheels_text = f'wheels color {self.wheels[0].color},'
+            wheels_text = f'wheels color {self.wheels[0].color}, '
         base_text = f'stand made of material {self.base.material}'
         gas_lift_text = ''
         if self.gas_lift:

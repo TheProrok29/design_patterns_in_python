@@ -1,4 +1,4 @@
-from abstract_factory.client import Client
+from client import Client
 
 if __name__ == '__main__':
     person1 = Client()

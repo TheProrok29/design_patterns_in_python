@@ -1,7 +1,7 @@
-from abstract_factory.chair import Chair
-from abstract_factory.children_chair_factory import ChildrenChairsFactory
-from abstract_factory.office_chair_factory import OfficeChairsFactory
-from abstract_factory.plane_chair_factory import PlaneChairsFactory
+from chair import Chair
+from children_chair_factory import ChildrenChairsFactory
+from office_chair_factory import OfficeChairsFactory
+from plane_chair_factory import PlaneChairsFactory
 
 
 class ChairX:
