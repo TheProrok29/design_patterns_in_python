@@ -1,7 +1,7 @@
 # One way to resolve this problem is using shared object
 from multiprocessing import Process, Manager
 
-from singleton import Singleton
+from singleton.singleton import Singleton
 
 
 def f(return_list):
@@ -25,3 +25,5 @@ if __name__ == '__main__':
         print(id(element))
     print(return_list)
 # We're still creating 3 different object but we return and add to list the same one object.
+
+# Best way is not use Singleton with threads and multiprocessing when we not must.

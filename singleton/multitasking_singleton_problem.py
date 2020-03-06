@@ -1,6 +1,6 @@
 from multiprocessing import Process
 
-from singleton import Singleton
+from singleton.singleton import Singleton
 
 
 # Singleton problem with multitasking/multiprocessing/threading
@@ -23,4 +23,4 @@ if __name__ == '__main__':
     p2.join()
     p3.join()
     print(return_list)
-    # We have a 3 different objects when we create Singleton in the same time and empty list.
+# We have a 3 different objects when we create Singleton in the same time and empty list.
