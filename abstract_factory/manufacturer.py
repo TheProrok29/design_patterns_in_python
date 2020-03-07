@@ -1,5 +1,6 @@
 from chair import Chair
 from children_chair_factory import ChildrenChairsFactory
+from exclusive_chair_factory import ExclusiveChairsFactory
 from office_chair_factory import OfficeChairsFactory
 from plane_chair_factory import PlaneChairsFactory
 
@@ -8,6 +9,7 @@ class ChairX:
     def __init__(self, client_options: dict):
         self.client_options = client_options
         self.chair_fab = OfficeChairsFactory()
+        self.chair_apple = ExclusiveChairsFactory()
         self.chair_plane = PlaneChairsFactory()
         self.chair_child = ChildrenChairsFactory()
 
@@ -26,6 +28,8 @@ class ChairX:
     def produce_chair(self):
         if self.client_options['type'] == 'normal':
             factory = self.chair_fab
+        elif self.client_options['type'] == 'exclusive':
+            factory = self.chair_apple
         elif self.client_options['type'] == 'plane':
             factory = self.chair_plane
         elif self.client_options['type'] == 'children':
