@@ -13,10 +13,10 @@ class Chair:
         wheels_text = ''
         if self.wheels:
             wheels_text = f'wheels color {self.wheels[0].color}, '
-        base_text = f'stand made of material {self.base.material}'
+        base_text = f'stand made of material {self.base.material}, '
         gas_lift_text = ''
         if self.gas_lift:
-            gas_lift_text = f'lifter made of material {self.gas_lift.material}'
+            gas_lift_text = f'lifter made of material {self.gas_lift.material}. '
         seat_text = f'seat made of material {self.seat.material} and color {self.seat.color} and size {self.seat.size}'
         text_list = [back_text, arms_text, wheels_text, base_text, gas_lift_text, seat_text]
         main_text = ''.join(text_list)
