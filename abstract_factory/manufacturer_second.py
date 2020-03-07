@@ -3,7 +3,7 @@ from chair import Chair
 from abstract_factory import UniversalFactory
 
 
-class ChairX:
+class ChairY:
     def __init__(self, client_options: dict):
         self.client_options = client_options
 
