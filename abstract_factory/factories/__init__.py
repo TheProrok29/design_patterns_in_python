@@ -1,0 +1,4 @@
+from factories.children_chair_factory import ChildrenChairsFactory
+from factories.plane_chair_factory import PlaneChairsFactory
+from factories.exclusive_chair_factory import ExclusiveChairsFactory
+from factories.office_chair_factory import OfficeChairsFactory
