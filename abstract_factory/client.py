@@ -1,5 +1,6 @@
 from random import shuffle
 
+from factories_enum import Factories
 from manufacturer import ChairX
 
 
@@ -8,7 +9,7 @@ class Client:
         self.colors = ['red', 'green', 'blue', 'yellow', 'black', 'silver']
         self.materials = ['leather', 'artificial leather', 'plastic']
         self.sizes = [(20, 25), (30, 20), (20, 20), (18, 22)]
-        self.types = ['normal', 'exclusive', 'plane', 'children']
+        self.types = [factory.name for factory in Factories]
         self.chair = None
 
     def request_chair(self):
