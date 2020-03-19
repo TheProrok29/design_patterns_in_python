@@ -1,12 +1,11 @@
+from inspect import getmembers, isclass
 from random import choice
 
-from boiled_sweet import BoiledSweet
-from fudge import Fudge
-from gummy import Gummy
-from jawbreaker import Jawbreaker
+import sweet
 from plastic_bin import PlasticBin
 
-sweets = [BoiledSweet, Gummy, Fudge, Jawbreaker]
+sweets = [getattr(sweet, m[0]) for m in getmembers(sweet, isclass)
+          if m[1].__module__ == 'sweet' and m[0] != 'Sweet']
 
 
 class Shop:
