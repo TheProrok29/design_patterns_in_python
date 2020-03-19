@@ -27,4 +27,5 @@ class Shop:
         for plastic_bin in self.plastic_bins:
             if plastic_bin.type == type_:
                 while how_many and len(plastic_bin.set_of_sweet) > 0:
+                    how_many -= 1
                     plastic_bin.get_sweet()
