@@ -25,15 +25,16 @@ class PlasticBin:
             self.set_of_sweet = {Jawbreaker() for _ in range(10)}
 
     def restock(self):
-        if len(self.set_of_sweet) < self.minimum:
-            if self.type == 'boiledsweet':
-                self.set_of_sweet.add(BoiledSweet(colors[randint(0, len(colors))]))
-            elif self.type == 'gummy':
-                self.set_of_sweet.add(Gummy(colors[randint(0, len(colors))], shapes[randint(0, len(shapes))]))
-            elif self.type == 'fudge':
-                self.set_of_sweet.add(Fudge(ings[randint(0, len(ings))]))
-            else:
-                self.set_of_sweet.add(Jawbreaker())
+        if len(self.set_of_sweet) >= self.limit:
+            return
+        if self.type == 'boiledsweet':
+            self.set_of_sweet.add(BoiledSweet(colors[randint(0, len(colors))]))
+        elif self.type == 'gummy':
+            self.set_of_sweet.add(Gummy(colors[randint(0, len(colors))], shapes[randint(0, len(shapes))]))
+        elif self.type == 'fudge':
+            self.set_of_sweet.add(Fudge(ings[randint(0, len(ings))]))
+        else:
+            self.set_of_sweet.add(Jawbreaker())
 
     def get_sweet(self):
         return self.set_of_sweet.pop()

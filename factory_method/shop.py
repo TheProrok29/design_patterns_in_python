@@ -17,3 +17,14 @@ class Shop:
             for element in plastic_bin.set_of_sweet:
                 print(type(element), end='')
             print()
+
+    def fill(self):
+        for plastic_bin in self.plastic_bins:
+            for _ in range(plastic_bin.limit):
+                plastic_bin.restock()
+
+    def buy(self, how_many, type_):
+        for plastic_bin in self.plastic_bins:
+            if plastic_bin.type == type_:
+                while how_many and len(plastic_bin.set_of_sweet) > 0:
+                    plastic_bin.get_sweet()
