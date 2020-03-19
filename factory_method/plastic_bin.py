@@ -10,7 +10,7 @@ class PlasticBin:
         self.sweet_type = sweet_type
         self.limit = 100
         self.minimum = 10
-        self.set_of_sweets = {self.sweet_type.create_sweet() for _ in range(10)}
+        self.set_of_sweets = {self.sweet_type.create_sweet(color='red') for _ in range(10)}
 
     def restock(self):
         if len(self.set_of_sweets) >= self.limit:

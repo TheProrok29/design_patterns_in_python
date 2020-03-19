@@ -4,7 +4,7 @@ from random import choice
 
 class Sweet(ABC):
     @classmethod
-    def create_sweet(cls, *args, **kwargs):
+    def create_sweet(cls, **kwargs):
         raise Exception('You can"t do that.')
 
 
@@ -18,8 +18,8 @@ class BoiledSweet(Sweet):
             self.color = choice(BoiledSweet.colors)
 
     @classmethod
-    def create_sweet(cls, color=None):
-        return BoiledSweet(color)
+    def create_sweet(cls, **kwargs):
+        return BoiledSweet(kwargs.get('color', None))
 
 
 class Gummy(Sweet):
@@ -37,15 +37,15 @@ class Gummy(Sweet):
             self.shape = choice(Gummy.shapes)
 
     @classmethod
-    def create_sweet(cls, color=None, shape=None):
-        return Gummy(color, shape)
+    def create_sweet(cls, **kwargs):
+        return Gummy(kwargs.get('color', None), kwargs.get('shape', None))
 
 
 class Jawbreaker(Sweet):
     pass
 
     @classmethod
-    def create_sweet(cls):
+    def create_sweet(cls, **kwargs):
         return Jawbreaker()
 
 
@@ -59,5 +59,5 @@ class Fudge(Sweet):
             self.extra_ingredient = choice(Fudge.ings)
 
     @classmethod
-    def create_sweet(cls, extra_ingredient=None):
-        return Fudge(extra_ingredient)
+    def create_sweet(cls, **kwargs):
+        return Fudge(kwargs.get('extra_ingredient', None))
