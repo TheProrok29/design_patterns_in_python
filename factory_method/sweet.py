@@ -2,5 +2,6 @@ from abc import ABC
 
 
 class Sweet(ABC):
-    def create_sweet(self):
+    @classmethod
+    def create_sweet(cls):
         pass
