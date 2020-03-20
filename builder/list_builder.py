@@ -10,7 +10,7 @@ class ListBuilder(Builder):
         self.__data = data
 
     def save_data(self):
-        with open('some_data.csv', 'w') as file:
+        with open('some_data.csv', 'w', newline='') as file:
             writer = csv.writer(file, delimiter=',')
             for row in self.__data:
                 writer.writerow(row)
