@@ -1,3 +1,4 @@
+from director import Director
 from list_builder import ListBuilder
 from my_list_builder import MyListBuilder
 
@@ -7,9 +8,7 @@ data = [
     ['Martin', 'Aub', 7, None, 'France'],
 ]
 
-builder1, builder2 = ListBuilder(), MyListBuilder()
-
-builder1.set_data(data)
-builder2.set_data(data)
-builder1.save_data()
-builder2.save_data()
+director = Director(ListBuilder())
+director.create_csv(data)
+director.set_builder(MyListBuilder())
+director.create_csv(data)
