@@ -11,6 +11,6 @@ class ListBuilder(Builder):
 
     def save_data(self):
         with open('some_data.csv', 'w') as file:
-            writer = csv.writer(file, delimeter=',')
+            writer = csv.writer(file, delimiter=',')
             for row in self.__data:
                 writer.writerow(row)
