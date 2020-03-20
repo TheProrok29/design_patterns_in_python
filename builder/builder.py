@@ -2,10 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class Builder(ABC):
-    __data = None
 
     @abstractmethod
-    def set_data(self):
+    def set_data(self, data):
         pass
 
     @abstractmethod
