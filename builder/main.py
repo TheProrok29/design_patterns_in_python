@@ -1,6 +1,4 @@
 from director import Director
-from list_builder import ListBuilder
-from my_list_builder import MyListBuilder
 
 data = [
     ['Jan', 'Kowalski', 27, '111 - 222 - 333', 'Poland'],
@@ -8,7 +6,6 @@ data = [
     ['Martin', 'Aub', 7, None, 'France'],
 ]
 
-director = Director(ListBuilder())
-director.create_csv(data)
-director.set_builder(MyListBuilder())
-director.create_csv(data)
+director = Director()
+director.set_data(data)
+director.create_csv()
