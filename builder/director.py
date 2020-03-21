@@ -1,5 +1,6 @@
 from list_builder import ListBuilder
 from my_list_builder import MyListBuilder
+from dict_builder import DictBuilder
 
 
 class Director:
@@ -9,6 +10,9 @@ class Director:
 
     def set_data(self, data):
         self.data = data
+        if isinstance(self.data[0], dict):
+            self.builder = DictBuilder()
+            return
         comma_exists = False
         for row in data:
             for element in row:
