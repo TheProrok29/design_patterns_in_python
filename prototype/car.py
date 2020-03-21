@@ -13,6 +13,6 @@ class Car:
     def __str__(self):
         summary = []
         for key, val in vars(self).items():
-            summary.append(f'{key}: {val}\n')
+            summary.append(f'{key}: {val}')
 
-        return summary
+        return '\n'.join(summary)
