@@ -16,5 +16,6 @@ class Prototype:
             instance = deepcopy(self.objs[id_])
             for key in kwargs:
                 setattr(instance, key, kwargs[key])
+            return instance
         else:
             raise ModuleNotFoundError
