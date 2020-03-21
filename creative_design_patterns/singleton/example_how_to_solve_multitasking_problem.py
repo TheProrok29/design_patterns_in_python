@@ -1,7 +1,7 @@
 # One way to resolve this problem is using shared object
 from multiprocessing import Process, Manager
 
-from singleton.singleton import Singleton
+from creative_design_patterns.singleton.singleton import Singleton
 
 
 def f(return_list):

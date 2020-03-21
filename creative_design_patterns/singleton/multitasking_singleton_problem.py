@@ -1,6 +1,6 @@
 from multiprocessing import Process
 
-from singleton.singleton import Singleton
+from creative_design_patterns.singleton.singleton import Singleton
 
 
 # Singleton problem with multitasking/multiprocessing/threading

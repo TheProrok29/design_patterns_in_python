@@ -1,4 +1,4 @@
-from builder import Builder
+from creative_design_patterns.builder import Builder
 
 
 class MyListBuilder(Builder):

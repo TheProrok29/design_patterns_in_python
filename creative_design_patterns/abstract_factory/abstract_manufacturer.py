@@ -1,6 +1,6 @@
 from chair import Chair
 
-from abstract_factory import UniversalFactory
+from creative_design_patterns.abstract_factory import UniversalFactory
 
 
 class Manufacturer:

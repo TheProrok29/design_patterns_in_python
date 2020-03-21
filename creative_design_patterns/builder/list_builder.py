@@ -1,6 +1,6 @@
 import csv
 
-from builder import Builder
+from creative_design_patterns.builder import Builder
 
 
 class ListBuilder(Builder):
