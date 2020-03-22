@@ -1,5 +1,5 @@
-from dog import Dog
 from child import Child
+from dog import Dog
 from dog_costume import DogAdapter
 
 dog1 = Dog(8, 'm', 'shepherd dog', 'brawn')
