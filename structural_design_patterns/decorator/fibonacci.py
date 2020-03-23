@@ -1,3 +1,7 @@
+from cache_decorator import memorize
+
+
+@memorize
 def fib(n):
     if n < 2:
         return 1

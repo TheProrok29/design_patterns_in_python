@@ -1,3 +1,7 @@
+from cache_decorator import memorize
+
+
+@memorize
 def calculation(n):
     summary = 0
     if n % 2 == 0:
