@@ -10,9 +10,8 @@ from fibonacci import fib
 sys.setrecursionlimit(10 ** 7)
 
 start = time.time()
-a = fib(35)
 for i in range(10000):
     n = random.randint(1, 2000)
-    b, c, d = rec_factorial(n), factorial(n), calculation(n)
+    a, b, c, d = fib(n), rec_factorial(n), factorial(n), calculation(n)
 stop = time.time()
 print(stop - start)
