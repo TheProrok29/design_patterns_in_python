@@ -7,7 +7,7 @@ class Foo:
         self.b = b
         self.text = text
 
-    @timer
+    # @timer
     def do_stuff1(self):
         return sum(x for x in range(self.a, self.b))
 
