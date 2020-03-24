@@ -11,5 +11,8 @@ class WarFetcher(Fetcher):
     def get_ads(self):
         return 'Some weapon ads'
 
+    def get_image(self):
+        return 'War image'
+
     def go_to_full_version(self):
         return 'Full version - now for only 5$ '

@@ -11,5 +11,8 @@ class SportFetcher(Fetcher):
     def get_ads(self):
         return 'Some sports ads'
 
+    def get_image(self):
+        return 'Sport image'
+
     def go_to_full_version(self):
         return 'Buy full version now!'

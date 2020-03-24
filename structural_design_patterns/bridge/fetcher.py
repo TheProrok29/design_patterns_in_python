@@ -23,5 +23,9 @@ class Fetcher(ABC):
         pass
 
     @abstractmethod
+    def get_image(self):
+        pass
+
+    @abstractmethod
     def go_to_full_version(self):
         pass
