@@ -1,7 +1,7 @@
-from abc import ABC, abstractmethod
+from abc import abstractmethod
 
 
-class Webpage:
+class WebPage:
     def __init__(self, fetcher):
         self.fetcher = fetcher
 
