@@ -1,9 +1,9 @@
-from webpage import WebPage
+from web_page import WebPage
 
 
-class Paid WebPage(Webpage):
+class PaidWebPage(WebPage):
     def show_page(self):
-        article = self.fetcher.article()
+        article = self.fetcher.get_article()
         image = self.fetcher.get_image()
         print(image)
         print(article)

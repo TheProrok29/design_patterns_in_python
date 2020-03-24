@@ -1,7 +1,7 @@
-from webpage import WebPage
+from web_page import WebPage
 
 
-class FreeWebPage(Webpage):
+class FreeWebPage(WebPage):
     def show_page(self):
         image = self.fetcher.get_image()
         snippet = self.fetcher.get_snippet()
