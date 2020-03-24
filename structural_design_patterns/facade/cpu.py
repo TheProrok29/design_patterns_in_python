@@ -8,7 +8,7 @@ class CPU:
     def freeze(self):
         print('Freezing processor.')
 
-    def jump(self, position)
+    def jump(self, position):
         print('Jumping to: ', position)
 
     def execute(self):
