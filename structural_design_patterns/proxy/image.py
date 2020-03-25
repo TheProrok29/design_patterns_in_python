@@ -12,3 +12,11 @@ class AbstractImage(ABC):
     @abstractmethod
     def display_image(self):
         pass
+
+
+class Image(AbstractImage):
+    def load_image(self):
+        print('Image loaded.')
+
+    def display_image(self):
+        print('Display image.')
