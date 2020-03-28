@@ -1,9 +1,16 @@
 from iterator import MyIter
 
-my_iter = MyIter(100)
+my_iter = MyIter(10000)
 
 # for element in my_iter:
 #     print(element, end=' ')
 
-my_iter_as_list = list(my_iter)
-print(my_iter_as_list)
+results = []
+while True:
+    for _ in range(100):
+        results.append(next(my_iter))
+    print(results)
+    option = input('If you want exit press: y :')
+    if option == 'y':
+        break
+print(results)
