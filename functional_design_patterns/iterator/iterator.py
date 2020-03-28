@@ -11,9 +11,6 @@ class MyIter:
         return self
 
     def __next__(self):
-        if self.n < self.limit:
-            self.n += self.add
-            self.add += 2
-            return self.n
-        else:
-            raise StopIteration
+        self.n += self.add
+        self.add += 2
+        return self.n
