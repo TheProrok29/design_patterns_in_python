@@ -1,23 +1,11 @@
-from memento import Memento
+from todo import ToDo
 
-my_memento = Memento()
-
-my_memento.save_state('1')
-my_memento.save_state('2')
-my_memento.save_state('3')
-my_memento.save_state('4')
-my_memento.save_state('5')
-
-my_memento.undo()
-my_memento.undo()
-print(my_memento.read_state())
-
-my_memento.save_state('6')
-
-print(my_memento.read_state())
-
-my_memento.redo()
-
-print(my_memento.read_state())
-my_memento.undo()
-print(my_memento.read_state())
+my_list = ToDo()
+my_list.add_goal('Buy something')
+my_list.add_goal('Fix the computer')
+my_list.add_goal('Read the book')
+my_list.end_goal(1)
+my_list.show_goals(False)
+my_list.undo()
+print()
+my_list.show_goals()
