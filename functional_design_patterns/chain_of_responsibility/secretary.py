@@ -9,7 +9,7 @@ class Secretary(TeamMember):
         if 'write' in task and 'back' in task:
             self.write_back()
             return True
-        if 'tea' in task and 'process' in task:
+        if 'tea' in task:
             self.get_tea()
             return True
         return False
