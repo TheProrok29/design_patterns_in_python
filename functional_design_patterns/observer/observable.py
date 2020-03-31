@@ -13,4 +13,4 @@ class Observable(ABC):
 
     def notify(self, *args, **kwargs):
         for observer in self._observers:
-            observer.notify()
+            observer.notify(worker=self, *args, **kwargs)
