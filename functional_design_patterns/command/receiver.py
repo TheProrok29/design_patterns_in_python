@@ -1,4 +1,4 @@
 class Receiver:
     @staticmethod
-    def execute(self, data=''):
+    def execute(data=''):
         print(f'Action executed with data: {data}')
