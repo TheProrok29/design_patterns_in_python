@@ -16,15 +16,15 @@ class Plant(ABC):
 
 
 class Grass(Plant):
-    def __init__(self, name):
+    def __init__(self):
         super().__init__('grass')
 
 
 class Cherry(Plant):
-    def __init__(self, name):
+    def __init__(self):
         super().__init__('cherry')
 
 
 class Nettle(Plant):
-    def __init__(self, name):
+    def __init__(self):
         super().__init__('nettle')
