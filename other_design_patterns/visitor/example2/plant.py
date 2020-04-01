@@ -6,12 +6,12 @@ class Plant(ABC):
         self.name = name
 
     def accept_visitor(self, visitor):
-        visitor.accept(self)
+        visitor.visit(self)
 
     def water(self, responsible):
         print(f'{self.name} watered by {responsible}')
 
-    def ear(self, responsible):
+    def eat(self, responsible):
         print(f'{self.name} eaten by {responsible}')
 
 
