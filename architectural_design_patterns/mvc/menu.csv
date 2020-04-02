@@ -1,7 +1,7 @@
 Name,Price,Count,Availability
-broth,10,plate,1
-russian dumplings,12,10,1
-meat dumplings,12,10,1
-trout,20,1,0
-shashlik,15,2,0
-potato pancake,15,5,1
+Broth,10,plate,1
+Russian dumplings,12,10,1
+Meat dumplings,12,10,1
+Trout,20,1,0
+Shashlik,15,2,1
+Potato pancake,15,5,1
