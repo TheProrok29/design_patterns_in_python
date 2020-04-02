@@ -21,10 +21,10 @@ class MenuModel:
             if row['Name'] == name:
                 meal_exist = True
                 meal_availability = int(row['Availability'])
-            if meal_exist and meal_availability:
-                return name
-            else:
-                return None
+        if meal_exist and meal_availability:
+            return name
+        else:
+            return None
 
     def get_menu(self):
         menu_to_return = []

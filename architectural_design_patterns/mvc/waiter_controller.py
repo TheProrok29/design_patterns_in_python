@@ -15,5 +15,5 @@ class WaiterController:
             name = self.client.request_meal()
             if len(name) > 4:
                 valid_request = True
-        meal = self.menu.get_menu(name)
+        meal = self.menu.get_meal(name)
         self.client.show(meal)
