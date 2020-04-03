@@ -1,5 +1,5 @@
-from car import Car
-from creative_design_patterns.prototype import Prototype
+from creative_design_patterns.prototype.car import Car
+from creative_design_patterns.prototype.prototype import Prototype
 
 my_car = Car('Audi', 'TT', 'diesel', 'manual', 'sedan', 'OB7656', 'Tom Bog', color='black', dors=5)
 print(my_car)

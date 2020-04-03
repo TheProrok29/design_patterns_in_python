@@ -1,4 +1,4 @@
-from car import Car
+from other_design_patterns.lazy_initialization.car import Car
 
 car1 = Car('PTY77', 'gasoline')
 car2 = Car('AZF47', 'electro')

@@ -1,6 +1,6 @@
-from list_builder import ListBuilder
-from my_list_builder import MyListBuilder
-from dict_builder import DictBuilder
+from creative_design_patterns.builder.dict_builder import DictBuilder
+from creative_design_patterns.builder.list_builder import ListBuilder
+from creative_design_patterns.builder.my_list_builder import MyListBuilder
 
 
 class Director:

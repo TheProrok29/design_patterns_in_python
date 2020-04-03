@@ -1,7 +1,8 @@
 import time
-from creative_design_patterns.builder import Builder
-from chair_parts import *
-from chair import Chair
+
+from creative_design_patterns.builder.chair_builder_example.builder import Builder
+from creative_design_patterns.builder.chair_builder_example.chair import Chair
+from creative_design_patterns.builder.chair_builder_example.chair_parts import *
 
 
 class HandmadeBuilder(Builder):

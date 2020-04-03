@@ -1,4 +1,4 @@
-from component import Component
+from structural_design_patterns.composite.component import Component
 
 
 class Point(Component):

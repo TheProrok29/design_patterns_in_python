@@ -1,4 +1,4 @@
-from worker import Worker
+from functional_design_patterns.template_method.worker import Worker
 
 
 class Secretary(Worker):

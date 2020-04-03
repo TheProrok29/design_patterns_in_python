@@ -1,4 +1,4 @@
-from sweet import Sweet
+from creative_design_patterns.factory_method.sweet import Sweet
 
 colors = ['red', 'green', 'blue']
 shapes = ['bear', 'baby', 'duck', 'cat', 'dog']

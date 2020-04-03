@@ -1,5 +1,5 @@
-from computer import *
-from processor import *
+from other_design_patterns.dependency_injection.computer import *
+from other_design_patterns.dependency_injection.processor import *
 
 amd_computer = Computer(AMDProcessor())
 intel_computer = Computer(IntelProcessor())

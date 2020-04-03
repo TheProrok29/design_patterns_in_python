@@ -1,5 +1,6 @@
 from random import choice
-from player_factory import PlayerFactory
+
+from structural_design_patterns.flyweight.player_factory import PlayerFactory
 
 
 class CounterGame:

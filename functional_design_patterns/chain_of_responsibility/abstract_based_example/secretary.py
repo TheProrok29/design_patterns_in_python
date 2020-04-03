@@ -1,4 +1,4 @@
-from team_member import TeamMember
+from functional_design_patterns.chain_of_responsibility.abstract_based_example.team_member import TeamMember
 
 
 class Secretary(TeamMember):

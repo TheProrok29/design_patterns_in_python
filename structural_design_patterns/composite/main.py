@@ -1,6 +1,6 @@
-from point import Point
-from segment import Segment
-from triangle import Triangle
+from structural_design_patterns.composite.point import Point
+from structural_design_patterns.composite.segment import Segment
+from structural_design_patterns.composite.triangle import Triangle
 
 point_a1 = Point(3, 5)
 point_a2 = Point(10, 10)

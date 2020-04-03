@@ -1,6 +1,6 @@
-from child import Child
-from dog import Dog
-from dog_costume import DogAdapter
+from structural_design_patterns.adapter.child_dog_costume_adapter.child import Child
+from structural_design_patterns.adapter.child_dog_costume_adapter.dog import Dog
+from structural_design_patterns.adapter.child_dog_costume_adapter.dog_costume import DogAdapter
 
 dog1 = Dog(8, 'm', 'shepherd dog', 'brawn')
 child1 = Child(8, 'm', 'white')

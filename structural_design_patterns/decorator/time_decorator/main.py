@@ -1,5 +1,6 @@
-from foo import Foo
 from timeit import Timer
+
+from structural_design_patterns.decorator.time_decorator.foo import Foo
 
 obj = Foo(200, 300, 'something')
 

@@ -2,10 +2,10 @@ import random
 import sys
 import time
 
-from another_calculations import calculation
-from factorial1 import rec_factorial
-from factorial2 import factorial
-from fibonacci import fib
+from structural_design_patterns.decorator.cache_decorator.another_calculations import calculation
+from structural_design_patterns.decorator.cache_decorator.factorial1 import rec_factorial
+from structural_design_patterns.decorator.cache_decorator.factorial2 import factorial
+from structural_design_patterns.decorator.cache_decorator.fibonacci import fib
 
 sys.setrecursionlimit(10 ** 7)
 

@@ -1,4 +1,4 @@
-from director import Director
+from creative_design_patterns.builder.director import Director
 
 data = [
     ['Jan', 'Kowalski', 27, '111 - 222 - 333', 'Poland'],

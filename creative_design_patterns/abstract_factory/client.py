@@ -1,7 +1,7 @@
 from random import shuffle
 
-from factories_enum import Factories
-from manufacturer import ChairX
+from creative_design_patterns.abstract_factory.factories_enum import Factories
+from creative_design_patterns.abstract_factory.manufacturer import ChairX
 
 
 class Client:

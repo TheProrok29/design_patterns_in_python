@@ -1,4 +1,4 @@
-from widget import Widget
+from functional_design_patterns.chain_of_responsibility.event_widget_example.widget import Widget
 
 
 class Window(Widget):

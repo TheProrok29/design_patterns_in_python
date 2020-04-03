@@ -1,4 +1,4 @@
-from iterator import MyIter
+from functional_design_patterns.iterator.iterator import MyIter
 
 my_iter = MyIter(10000)
 

@@ -1,5 +1,5 @@
-from accountant import Accountant
-from secretary import Secretary
+from functional_design_patterns.template_method.accountant import Accountant
+from functional_design_patterns.template_method.secretary import Secretary
 
 secretary = Secretary('Marie')
 accountant = Accountant('Elen')

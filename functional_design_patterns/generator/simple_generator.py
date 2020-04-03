@@ -6,6 +6,7 @@ def generator():
     yield 3
     # print('c')
 
+
 my_generator = generator()
 
 for element in my_generator:

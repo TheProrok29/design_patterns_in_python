@@ -1,10 +1,10 @@
-from chain import Chain
-from director import Director
-from manager import Manager
-from secretary import Secretary
-from team_member import TeamMember
-from vice_director import ViceDirector
-from worker import Worker
+from functional_design_patterns.chain_of_responsibility.abstract_based_example.chain import Chain
+from functional_design_patterns.chain_of_responsibility.abstract_based_example.director import Director
+from functional_design_patterns.chain_of_responsibility.abstract_based_example.manager import Manager
+from functional_design_patterns.chain_of_responsibility.abstract_based_example.secretary import Secretary
+from functional_design_patterns.chain_of_responsibility.abstract_based_example.team_member import TeamMember
+from functional_design_patterns.chain_of_responsibility.abstract_based_example.vice_director import ViceDirector
+from functional_design_patterns.chain_of_responsibility.abstract_based_example.worker import Worker
 
 my_chain = Chain()
 

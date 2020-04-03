@@ -1,4 +1,4 @@
-from observer import Observer
+from functional_design_patterns.observer.observer import Observer
 
 
 class Manager(Observer):

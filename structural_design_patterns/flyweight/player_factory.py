@@ -1,4 +1,4 @@
-from player import *
+from structural_design_patterns.flyweight.player import *
 
 
 class PlayerFactory:

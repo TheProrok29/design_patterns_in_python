@@ -1,7 +1,7 @@
 from random import choice
 
-from plant import *
-from visitor import *
+from other_design_patterns.visitor.example2.plant import *
+from other_design_patterns.visitor.example2.visitor import *
 
 plants = [Grass, Nettle, Cherry]
 my_plants = []

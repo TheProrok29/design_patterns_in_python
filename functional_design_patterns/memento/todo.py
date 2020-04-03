@@ -1,4 +1,4 @@
-from memento import Memento
+from functional_design_patterns.memento.memento import Memento
 
 
 class ToDo:

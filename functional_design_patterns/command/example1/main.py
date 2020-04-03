@@ -1,6 +1,6 @@
-from caller import Caller
-from command import Command
-from receiver import Receiver
+from functional_design_patterns.command.example1.caller import Caller
+from functional_design_patterns.command.example1.command import Command
+from functional_design_patterns.command.example1.receiver import Receiver
 
 tool = Receiver()
 cmd1 = Command(tool)

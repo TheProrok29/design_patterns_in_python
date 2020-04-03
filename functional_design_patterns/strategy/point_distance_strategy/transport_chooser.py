@@ -2,15 +2,14 @@ import inspect
 import sys
 from random import choice
 
-from strategies import *
-
 
 class TransportChooser:
     def __init__(self, a, b, strategy=None):
         self.strategy = strategy
         self.a = a
         self.b = b
-        self.strategies = inspect.getmembers(sys.modules['strategies'], inspect.isclass)
+        self.strategies = inspect.getmembers(
+            sys.modules['functional_design_patterns.strategy.point_distance_strategy.strategies'], inspect.isclass)
 
     def use_strategy(self):
         if self.strategy:

@@ -1,6 +1,5 @@
-from chair import Chair
-
-from creative_design_patterns.abstract_factory import UniversalFactory
+from creative_design_patterns.abstract_factory.abstract_factory import UniversalFactory
+from creative_design_patterns.abstract_factory.chair import Chair
 
 
 class Manufacturer:

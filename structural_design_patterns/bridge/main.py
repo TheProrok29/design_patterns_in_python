@@ -1,8 +1,8 @@
-from articles import articles
-from free_web_page import FreeWebPage
-from paid_web_page import PaidWebPage
-from sport_fetcher import SportFetcher
-from war_fetcher import WarFetcher
+from structural_design_patterns.bridge.articles import articles
+from structural_design_patterns.bridge.free_web_page import FreeWebPage
+from structural_design_patterns.bridge.paid_web_page import PaidWebPage
+from structural_design_patterns.bridge.sport_fetcher import SportFetcher
+from structural_design_patterns.bridge.war_fetcher import WarFetcher
 
 art1 = articles[0]
 art2 = articles[1]

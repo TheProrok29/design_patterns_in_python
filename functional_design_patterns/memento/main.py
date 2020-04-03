@@ -1,4 +1,4 @@
-from todo import ToDo
+from functional_design_patterns.memento.todo import ToDo
 
 my_list = ToDo()
 my_list.add_goal('Buy something')

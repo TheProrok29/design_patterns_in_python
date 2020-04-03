@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from observable import Observable
+from functional_design_patterns.observer.observable import Observable
 
 
 class Observer(ABC):

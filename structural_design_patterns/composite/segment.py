@@ -1,5 +1,5 @@
-from component import Component
-from point import Point
+from structural_design_patterns.composite.component import Component
+from structural_design_patterns.composite.point import Point
 
 
 class Segment(Component):

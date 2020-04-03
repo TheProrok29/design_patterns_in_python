@@ -1,4 +1,4 @@
-from time_decorator import timer
+from structural_design_patterns.decorator.time_decorator.time_decorator import timer
 
 
 class Foo:

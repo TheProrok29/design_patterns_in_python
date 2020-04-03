@@ -1,7 +1,7 @@
-from cpu import CPU
-from hard_drive import HardDrive
-from memory import Memory
-from motherboard import Motherboard
+from structural_design_patterns.facade.cpu import CPU
+from structural_design_patterns.facade.hard_drive import HardDrive
+from structural_design_patterns.facade.memory import Memory
+from structural_design_patterns.facade.motherboard import Motherboard
 
 
 class Computer:

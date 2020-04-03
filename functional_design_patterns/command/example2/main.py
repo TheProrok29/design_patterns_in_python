@@ -1,6 +1,6 @@
-from switch import Switch
-from torch import Torch
-from torch_switcher import TorchSwitcher
+from functional_design_patterns.command.example2.switch import Switch
+from functional_design_patterns.command.example2.torch import Torch
+from functional_design_patterns.command.example2.torch_switcher import TorchSwitcher
 
 my_torch = Torch()
 my_switcher = Switch()

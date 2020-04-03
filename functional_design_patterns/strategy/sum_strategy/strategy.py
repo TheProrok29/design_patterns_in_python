@@ -1,4 +1,4 @@
-from sums import *
+from functional_design_patterns.strategy.sum_strategy.sums import *
 
 
 def sum_list(int_list: List[int]):

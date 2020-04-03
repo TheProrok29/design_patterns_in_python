@@ -1,4 +1,4 @@
-from prime_generator import prime_generator
+from functional_design_patterns.generator.prime_generator import prime_generator
 
 x = prime_generator()
 while True:

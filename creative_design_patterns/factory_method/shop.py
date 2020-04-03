@@ -2,7 +2,8 @@ from inspect import getmembers, isclass
 from random import choice
 
 import sweet
-from plastic_bin import PlasticBin
+
+from creative_design_patterns.factory_method.plastic_bin import PlasticBin
 
 sweets = [getattr(sweet, m[0]) for m in getmembers(sweet, isclass)
           if m[1].__module__ == 'sweet' and m[0] != 'Sweet']

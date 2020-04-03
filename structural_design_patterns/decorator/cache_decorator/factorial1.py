@@ -1,4 +1,4 @@
-from cache_decorator import memorize
+from structural_design_patterns.decorator.cache_decorator.cache_decorator import memorize
 
 
 @memorize

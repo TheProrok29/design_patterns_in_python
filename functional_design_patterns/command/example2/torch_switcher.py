@@ -1,4 +1,4 @@
-from command import *
+from functional_design_patterns.command.example2.command import *
 
 
 class TorchSwitcher:

@@ -1,4 +1,4 @@
-from web_page import WebPage
+from structural_design_patterns.bridge.web_page import WebPage
 
 
 class FreeWebPage(WebPage):

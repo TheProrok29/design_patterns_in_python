@@ -1,4 +1,4 @@
-from waiter_controller import WaiterController
+from architectural_design_patterns.mvc.waiter_controller import WaiterController
 
 my_waiter = WaiterController()
 while True:

@@ -1,4 +1,4 @@
-from chair_parts import *
+from ..chair_parts import *
 
 
 class ChildrenChairsFactory:

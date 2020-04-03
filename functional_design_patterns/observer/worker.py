@@ -1,6 +1,6 @@
 from random import randint
 
-from observable import Observable
+from functional_design_patterns.observer.observable import Observable
 
 
 class Worker(Observable):

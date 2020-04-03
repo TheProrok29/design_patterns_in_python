@@ -1,4 +1,4 @@
-from fetcher import Fetcher
+from structural_design_patterns.bridge.fetcher import Fetcher
 
 
 class WarFetcher(Fetcher):

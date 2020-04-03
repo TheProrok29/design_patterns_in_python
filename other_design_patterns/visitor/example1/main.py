@@ -1,5 +1,5 @@
-from animals import Dog
-from operations import Sound
+from other_design_patterns.visitor.example1.animals import Dog
+from other_design_patterns.visitor.example1.operations import Sound
 
 
 def accept_visitor(visitor):

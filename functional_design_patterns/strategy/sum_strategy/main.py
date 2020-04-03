@@ -1,7 +1,6 @@
 from time import time
 
-from strategy import sum_list
-from sums import *
+from functional_design_patterns.strategy.sum_strategy.strategy import sum_list
 
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 lista2 = [x ** 2 for x in range(1, 1000)]

@@ -1,4 +1,4 @@
-from phone_states import *
+from functional_design_patterns.state.phone_states import *
 
 
 class Phone:

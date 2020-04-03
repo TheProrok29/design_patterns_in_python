@@ -1,5 +1,5 @@
-from client_view import ClientView
-from menu_model import MenuModel
+from architectural_design_patterns.mvc.client_view import ClientView
+from architectural_design_patterns.mvc.menu_model import MenuModel
 
 
 class WaiterController:

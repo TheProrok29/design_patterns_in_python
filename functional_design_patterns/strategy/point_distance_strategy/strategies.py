@@ -1,4 +1,4 @@
-from strategy import Strategy
+from functional_design_patterns.strategy.point_distance_strategy.strategy import Strategy
 
 
 class Walk(Strategy):

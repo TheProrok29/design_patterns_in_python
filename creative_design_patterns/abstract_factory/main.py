@@ -1,4 +1,4 @@
-from client import Client
+from creative_design_patterns.abstract_factory.client import Client
 
 if __name__ == '__main__':
     person1 = Client()

@@ -1,5 +1,5 @@
-from component import Component
-from segment import Segment
+from structural_design_patterns.composite.component import Component
+from structural_design_patterns.composite.segment import Segment
 
 
 class Triangle(Component):

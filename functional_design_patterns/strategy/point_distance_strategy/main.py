@@ -1,4 +1,4 @@
-from transport_chooser import TransportChooser
+from functional_design_patterns.strategy.point_distance_strategy.transport_chooser import TransportChooser
 
 a = (1, 1)
 b = (5, 5)

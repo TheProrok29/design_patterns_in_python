@@ -1,4 +1,4 @@
-from phone import *
+from functional_design_patterns.state.phone import *
 
 normal_state = NormalState()
 vibration_state = VibrationState()

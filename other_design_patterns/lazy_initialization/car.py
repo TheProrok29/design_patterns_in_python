@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from engine import Engine
+from other_design_patterns.lazy_initialization.engine import Engine
 
 
 class Car:
